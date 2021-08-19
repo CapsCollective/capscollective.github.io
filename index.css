@@ -1,0 +1,53 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #A6E2D1;
+}
+
+.container {
+	max-width: 800px;
+	margin: auto;
+	padding: 20px;
+}
+
+img {
+	margin: auto;
+	display: block;
+	max-width: 90%;
+}
+
+h1 {
+	font-family: "Arial Rounded MT";
+	text-align: center;
+}
+
+.ftrm-banner {
+	width: 100%;
+	height: 500px;
+	object-fit: cover;
+	object-position: bottom;
+}
+
+.trailer {
+	width: 100%;
+	padding-bottom: 56.25%;
+	height: 0;
+	position: relative;
+}
+
+.trailer iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.horizontal-bar {
+	width: 90%;
+	border-top: 2px solid black;
+	margin: 10px auto;
+}
