@@ -1,3 +1,9 @@
+@font-face {
+	font-family: Arial Rounded MT;
+	font-weight: bold;
+	src: url('res/ArialRoundedBold.ttf');
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -5,6 +11,8 @@
 
 body {
 	background-color: #A6E2D1;
+	font-family: Arial Rounded MT;
+}
 }
 
 .container {
@@ -19,9 +27,6 @@ img {
 	max-width: 90%;
 }
 
-h1 {
-	font-family: "Arial Rounded MT";
-	text-align: center;
 }
 
 .ftrm-banner {
