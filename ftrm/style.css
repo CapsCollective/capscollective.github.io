@@ -1,0 +1,65 @@
+@font-face {
+	font-family: Hultog;
+	font-weight: regular;
+	src: url('../res/fonts/Hultog.ttf');
+}
+
+@font-face {
+	font-family: Arial Rounded MT;
+	font-weight: bold;
+	src: url('../res/fonts/ArialRoundedBold.ttf');
+}
+
+html {
+	background-image: url('../res/img/ftrm/paper_tile.png');
+	font-family: Hultog;
+}
+
+table {
+	width: 100%;
+}
+
+h1 {
+	font-weight: lighter;
+}
+
+h2 {
+	font-weight: lighter;
+}
+
+h3 {
+	font-weight: lighter;
+}
+
+h4 {
+	font-weight: lighter;
+}
+
+h5 {
+	font-weight: lighter;
+}
+
+a {
+	color: #DE5349;
+}
+
+ul {
+	list-style-position: inside;
+	padding-left: 0;
+}
+
+.cc-footer {
+	font-family: Arial Rounded MT;
+}
+
+.cc-footer-img {
+	width: 50%;
+}
+
+.game-icon {
+	height: 100px;
+}
+
+.screenshot {
+	width: 100%;
+}

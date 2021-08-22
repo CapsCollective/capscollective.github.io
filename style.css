@@ -1,0 +1,14 @@
+@font-face {
+	font-family: Arial Rounded MT;
+	font-weight: bold;
+	src: url('res/fonts/ArialRoundedBold.ttf');
+}
+
+html {
+	background-color: #A6E2D1;
+	font-family: Arial Rounded MT;
+}
+
+a {
+	color: #DE5349;
+}
