@@ -70,6 +70,15 @@ ul {
     background-size: cover;
 }
 
+.facts-container {
+	margin-top: 5px;
+	display: flex;
+}
+
+.facts-set {
+	padding-left: 15px;
+}
+
 .cc-footer {
 	font-family: Arial Rounded MT;
 }
@@ -87,22 +96,54 @@ ul {
     transform: scale(-1, -1);
 }
 
-.game-icon {
-	height: 100px;
+.promo-asset {
+	display: inline-block;
+}
+
+.promo-asset img {
+	height: 120px;
+}
+
+.screenshot-table {
+	table-layout: fixed;
+	width: 100%;
 }
 
 .screenshot {
 	width: 100%;
+	height: 200px;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.press-kit-buttons {
+.right-buttons {
 	position: fixed;
 	right:  10px;
 	bottom:  10px;
 }
 
-.press-kit-buttons img {
+.right-buttons a {
+	text-decoration: none;
+}
+
+.right-buttons img {
 	width: 150px;
+}
+
+.card-section {
+	color: #fff8e7;
+	background: url('../res/img/ftrm/paper_tile_darker.png');
+	padding: 15px;
+	border-radius: 10px;
+}
+
+.card-section table {
+	color: #fff8e7;
+}
+
+.shown-mobile {
+	display: none;
 }
 
 @media only screen and (max-width : 1200px) {
@@ -110,13 +151,23 @@ ul {
 		display: none;
 	}
 
-	.press-kit-buttons {
+	.right-buttons {
 		position: relative;
 		text-align: center;
 	}
 
-	.press-kit-buttons img {
+	.right-buttons img {
 		display: inline-block;
 		width: 150px;
+	}
+}
+
+@media only screen and (max-width : 750px) {
+	.facts-container {
+		display: block;
+	}
+
+	.shown-mobile {
+		display: block;
 	}
 }
