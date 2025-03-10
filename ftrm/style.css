@@ -19,6 +19,10 @@ table {
 	width: 100%;
 }
 
+tr {
+	height: 24px;
+}
+
 h1 {
 	font-weight: lighter;
 }
